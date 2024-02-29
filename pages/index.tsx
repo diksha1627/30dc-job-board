@@ -1,12 +1,15 @@
 import Link from "next/link";
 import Dashboard from "./dashboard";
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
 
 export default function Home() {
   return (
-   <section className="">
-      <div className="flex flex-col ">
-       <Dashboard/>
-      </div>
-    </section>
+    <div className="">
+    {/* <Sidebar /> */}
+      {/* <Navbar/> */}
+         <Dashboard/>
+         
+  </div>
   )
 }

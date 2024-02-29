@@ -9,7 +9,11 @@ export default function Document() {
       </Head>
       <body>
         <Main />
-        <NextScript />
+        <script src="/clarity.js" defer />
+        <script src="../path/to/flowbite/dist/flowbite.min.js" defer />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"defer/>
+
+        <NextScript/>
       </body>
     </Html>
   )
